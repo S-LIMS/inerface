@@ -1,0 +1,38 @@
+{
+  "name": "@s-lims/interface",
+  "version": "1.0.0",
+  "description": "Web interface for S-LIMS Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src --ext .ts",
+    "compile": "tsc",
+    "start": "node dist/index.js",
+    "build": "npm run lint && npm run compile && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-LIMS/interface.git"
+  },
+  "keywords": [
+    "LIMS",
+    "Interface",
+    "Website"
+  ],
+  "author": "James R Swift",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S-LIMS/interface/issues"
+  },
+  "homepage": "https://github.com/S-LIMS/interface#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
